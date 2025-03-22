@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pandas
+openpyxl
+python-dotenv
+pydantic
+httpx
+aiofiles
+python-multipart
+numpy
+pillow
+feedparser
+python-dateutil

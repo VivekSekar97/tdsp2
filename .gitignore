@@ -1,0 +1,13 @@
+# Ignore sensitive files
+.env
+*.pem
+rules_to execute.txt
+
+# Ignore unwanted directories
+__pycache__/
+extracted_files/
+files/
+old code/
+ref/
+working_files/
+
