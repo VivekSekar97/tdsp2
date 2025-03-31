@@ -519,7 +519,7 @@ async def ga1_q12(question: str, file: UploadFile) -> str:
 @register_question(r".*Enter the raw Github URL of email.json so we can verify it.*")
 async def ga1_q13(question: str) -> str:
     print(f"  Called ga1_q13: {question}")
-    url ="https://raw.githubusercontent.com/shalinis97/TDS/refs/heads/main/email.json"
+    url ="https://raw.githubusercontent.com/VivekSekar97/GA1/refs/heads/main/email.json"
     return url
 
 # GA1 Q14 - find and replace a string in a file ✅
@@ -764,7 +764,7 @@ async def ga2_q3(question:str) -> str:
 @register_question(r".*What is the GitHub Pages URL.*")
 async def ga2_q3(question:str) -> str:
     print(f"  Called ga2_q3: {question}")
-    url = "https://shalinis97.github.io/TDS/"
+    url = "https://viveksekar97.github.io/TDSGA1/"
     return url
 
 #GA2 Q4 - google collab 
@@ -803,14 +803,14 @@ async def ga2_q5(question:str, file: UploadFile) -> str:
 @register_question(r".*Create a GitHub action on one of your GitHub repositories.*")
 async def ga2_q7(question:str) -> str:
     print(f"  Called ga2_q7: {question}")
-    url = "https://github.com/shalinis97/TDS"
+    url = "https://github.com/VivekSekar97/student-api/actions/runs/13007226707/workflow"
     return url
 
 #GA2 Q8 - docker image url
 @register_question(r".*Create and push an image to Docker Hub.*")
-async def ga2_q7(question:str) -> str:
+async def ga2_q8(question:str) -> str:
     print(f"  Called ga2_q8: {question}")
-    url = "https://hub.docker.com/repository/docker/shalinis97/tds/"
+    url = "https://hub.docker.com/repository/docker/viveksekar97/getting-started/tags/24ds1000082/sha256-d819f321a1850678676fc16cdf8d80f3041a3407285856ba59cf6235bbdbb9dd"
     return url
 
 
