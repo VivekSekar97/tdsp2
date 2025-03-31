@@ -1495,6 +1495,13 @@ async def ga4_q7(question: str) -> str:
     # If we exhaust the list and find no user matching the cutoff criterion
     return "No users found matching the criteria."
 
+#gA4 Q8 -github action url
+@register_question(r".*Create a scheduled GitHub action that runs daily and adds a commit to your repository.*")
+async def ga4_q8(question: str) -> str:
+    print(f"  Called ga4_q8: {question}")
+    url ="https://github.com/VivekSekar97/tdaga4"
+    return url
+
 
 #GA4 Q9 - PDF MARKS (BIOLOGY, MATHS, PHYSICS, CHEM) BASED ON GROUPS
 
