@@ -2,6 +2,7 @@
 .env
 *.pem
 rules_to execute.txt
+rules.txt
 
 # Ignore unwanted directories
 __pycache__/
@@ -11,3 +12,4 @@ old code/
 ref/
 working_files/
 
+.qodo
